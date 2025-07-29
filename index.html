@@ -31,6 +31,7 @@
 
         <!-- MAIN CSS -->
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/thanks.css" />
     </head>
 
     <body>
@@ -132,7 +133,11 @@
                                 </div>
                             </div>
 
-                            <form class="trip-form">
+                            <form
+                                class="trip-form"
+                                action="thanks.html"
+                                method="get"
+                            >
                                 <div class="row align-items-center">
                                     <div class="col-md-9">
                                         <div class="form-control-wrap">
@@ -141,14 +146,8 @@
                                                 placeholder="Email"
                                                 id="email"
                                                 class="form-control px-3"
+                                                required
                                             />
-                                            <div
-                                                id="result"
-                                                style="
-                                                    color: red;
-                                                    font-size: 12px;
-                                                "
-                                            ></div>
                                         </div>
                                     </div>
                                     <div class="mb-3 mb-md-0 col-md-3">
@@ -157,7 +156,6 @@
                                             value="Поиск"
                                             id="submit"
                                             class="btn btn-primary btn-block py-3"
-                                            onclick="sendForm()"
                                         />
                                     </div>
                                 </div>
@@ -224,21 +222,6 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 mx-auto">
-                            <a
-                                href="https://www.youtube.com/embed/0O5bKZkqSKE?si=cexcDPhz5kzWePHO"
-                                class="d-flex align-items-center play-now mx-auto"
-                            >
-                                <span class="icon"
-                                    ><span class="icon-play"></span
-                                ></span>
-                                <span class="caption"
-                                    >Видео: как ухаживать за автомобилем</span
-                                >
-                            </a>
                         </div>
                     </div>
                 </div>
