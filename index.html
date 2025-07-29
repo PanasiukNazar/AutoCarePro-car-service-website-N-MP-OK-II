@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AutoCarePro</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta
+            name="description"
+            content="Образовательный ресурс, посвящённый уходу за автомобилем, техническому обслуживанию и ремонту. Практические советы и лайфхаки по организации пространства в гараже, правильной чистке и поддержанию комфорта при эксплуатации авто. Только полезная информация без коммерческой рекламы."
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+        <link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+        <link rel="stylesheet" href="css/aos.css" />
+
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <div class="site-wrap" id="home-section">
+            <div class="site-mobile-menu site-navbar-target">
+                <div class="site-mobile-menu-header">
+                    <div class="site-mobile-menu-close mt-3">
+                        <span class="icon-close2 js-menu-toggle"></span>
+                    </div>
+                </div>
+                <div class="site-mobile-menu-body"></div>
+            </div>
+
+            <header class="site-navbar site-navbar-target" role="banner">
+                <div class="container">
+                    <div class="row align-items-center position-relative">
+                        <div class="col-3">
+                            <div class="site-logo">
+                                <a href="index.html"
+                                    ><strong>AutoCarePro</strong></a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="col-9 text-right">
+                            <span class="d-inline-block d-lg-none">
+                                <a
+                                    href="#"
+                                    class="site-menu-toggle js-menu-toggle py-5"
+                                >
+                                    <span
+                                        class="icon-menu h3 text-black"
+                                    ></span>
+                                </a>
+                            </span>
+
+                            <nav
+                                class="site-navigation text-right ml-auto d-none d-lg-block"
+                                role="navigation"
+                            >
+                                <ul
+                                    class="site-menu main-menu js-clone-nav ml-auto"
+                                >
+                                    <li class="active">
+                                        <a href="index.html" class="nav-link"
+                                            >Главная</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="testimonials.html"
+                                            class="nav-link"
+                                            >Отзывы</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="service.html" class="nav-link"
+                                            >Услуги</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="about.html" class="nav-link"
+                                            >О нас</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="contact.html" class="nav-link"
+                                            >Контакты</a
+                                        >
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div
+                class="hero"
+                style="background-image: url('images/hero_1_a.jpg')"
+            >
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="row mb-5">
+                                <div class="col-lg-7 intro">
+                                    <h1>
+                                        <strong>Практические советы</strong> по
+                                        уходу за автомобилем
+                                    </h1>
+                                    <p>
+                                        Образовательный материал, посвящённый
+                                        организации пространства в гараже,
+                                        правильной очистке и ремонту
+                                        автомобилей. Лайфхаки для поддержания
+                                        порядка и комфорта при эксплуатации
+                                        авто.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <form class="trip-form">
+                                <div class="row align-items-center">
+                                    <div class="col-md-9">
+                                        <div class="form-control-wrap">
+                                            <input
+                                                type="email"
+                                                placeholder="Email"
+                                                id="email"
+                                                class="form-control px-3"
+                                            />
+                                            <div
+                                                id="result"
+                                                style="
+                                                    color: red;
+                                                    font-size: 12px;
+                                                "
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 mb-md-0 col-md-3">
+                                        <input
+                                            type="submit"
+                                            value="Поиск"
+                                            id="submit"
+                                            class="btn btn-primary btn-block py-3"
+                                            onclick="sendForm()"
+                                        />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-section">
+                <div class="container">
+                    <h2 class="section-heading">
+                        <strong>Как ухаживать за автомобилем?</strong>
+                    </h2>
+                    <p class="mb-5">
+                        Простые шаги для поддержания чистоты и порядка
+                    </p>
+
+                    <div class="row mb-5">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="step">
+                                <span>1</span>
+                                <div class="step-inner">
+                                    <span class="number text-primary">01.</span>
+                                    <h3>Организация пространства в гараже</h3>
+                                    <p>
+                                        Правильное распределение инструментов и
+                                        автозапчастей помогает поддерживать
+                                        порядок и ускоряет ремонтные работы.
+                                        Используйте полки, контейнеры и
+                                        магнитные держатели для удобства.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="step">
+                                <span>2</span>
+                                <div class="step-inner">
+                                    <span class="number text-primary">02.</span>
+                                    <h3>Тщательная очистка автомобиля</h3>
+                                    <p>
+                                        Регулярная мойка кузова и салона
+                                        предотвращает повреждения и сохраняет
+                                        комфорт. Используйте специализированные
+                                        средства для разных поверхностей и не
+                                        забывайте о тщательной сушке.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="step">
+                                <span>3</span>
+                                <div class="step-inner">
+                                    <span class="number text-primary">03.</span>
+                                    <h3>Профилактика и мелкий ремонт</h3>
+                                    <p>
+                                        Регулярные проверки технического
+                                        состояния и своевременный ремонт мелких
+                                        повреждений помогают избежать больших
+                                        проблем и продлить срок службы
+                                        автомобиля.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto">
+                            <a
+                                href="https://www.youtube.com/embed/0O5bKZkqSKE?si=cexcDPhz5kzWePHO"
+                                class="d-flex align-items-center play-now mx-auto"
+                            >
+                                <span class="icon"
+                                    ><span class="icon-play"></span
+                                ></span>
+                                <span class="caption"
+                                    >Видео: как ухаживать за автомобилем</span
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 text-center order-lg-2">
+                            <div class="img-wrap-1 mb-5">
+                                <img
+                                    src="images/feature_01.png"
+                                    alt="Image"
+                                    class="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ml-auto order-lg-1">
+                            <h3 class="mb-4 section-heading">
+                                <strong
+                                    >Наш подход к уходу за автомобилем</strong
+                                >
+                            </h3>
+                            <p class="mb-5">
+                                Основой качественного обслуживания является
+                                систематический подход. Важно понимать
+                                особенности вашего автомобиля, соблюдать
+                                рекомендации по уходу и использовать подходящие
+                                инструменты. Организация рабочего места и выбор
+                                правильных средств позволяют упростить процесс и
+                                повысить его эффективность.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <h2 class="section-heading">
+                                <strong>Основные советы по уходу</strong>
+                            </h2>
+                            <p class="mb-5">
+                                Представляем полезные рекомендации по
+                                организации пространства в гараже, чистке и
+                                мелкому ремонту автомобиля. Эти советы помогут
+                                сохранить ваш автомобиль в отличном состоянии и
+                                обеспечат комфорт при эксплуатации.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 mb-5">
+                            <div class="service-1 dark">
+                                <span class="service-1-icon"
+                                    ><span class="icon-home"></span
+                                ></span>
+                                <div class="service-1-contents">
+                                    <h3>Уборка и организация гаража</h3>
+                                    <p>
+                                        Регулярная уборка и правильное хранение
+                                        инструментов значительно облегчают
+                                        ремонт и обслуживание автомобиля.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="service-1 dark">
+                                <span class="service-1-icon"
+                                    ><span class="icon-gear"></span
+                                ></span>
+                                <div class="service-1-contents">
+                                    <h3>Очистка салона и кузова</h3>
+                                    <p>
+                                        Используйте специализированные чистящие
+                                        средства для разных материалов, чтобы
+                                        сохранить внешний вид и продлить срок
+                                        службы.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="service-1 dark">
+                                <span class="service-1-icon"
+                                    ><span class="icon-watch_later"></span
+                                ></span>
+                                <div class="service-1-contents">
+                                    <h3>Плановое техническое обслуживание</h3>
+                                    <p>
+                                        Регулярные проверки и профилактические
+                                        работы предотвращают серьезные поломки и
+                                        обеспечивают безопасность.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-5">
+                            <div class="service-1 dark">
+                                <span class="service-1-icon"
+                                    ><span class="icon-verified_user"></span
+                                ></span>
+                                <div class="service-1-contents">
+                                    <h3>Хранение запасных частей</h3>
+                                    <p>
+                                        Организованное хранение необходимых
+                                        деталей ускоряет ремонт и упрощает их
+                                        поиск.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="service-1 dark">
+                                <span class="service-1-icon"
+                                    ><span class="icon-video_library"></span
+                                ></span>
+                                <div class="service-1-contents">
+                                    <h3>Изучение инструкций и видеоуроков</h3>
+                                    <p>
+                                        Используйте обучающие материалы для
+                                        самостоятельного освоения навыков ухода
+                                        и ремонта.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="service-1 dark">
+                                <span class="service-1-icon"
+                                    ><span class="icon-vpn_key"></span
+                                ></span>
+                                <div class="service-1-contents">
+                                    <h3>Безопасность и охрана труда</h3>
+                                    <p>
+                                        Соблюдайте правила безопасности при
+                                        работе с инструментами и химическими
+                                        средствами.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-section bg-primary py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 mb-4 mb-md-0">
+                            <h2 class="mb-0 text-white">
+                                Полезные советы для ухода за автомобилем
+                            </h2>
+                            <p class="mb-0 opa-7">
+                                Узнайте, как правильно организовать пространство
+                                в гараже, эффективно чистить и поддерживать свой
+                                автомобиль в отличном состоянии.
+                            </p>
+                        </div>
+                        <div class="col-lg-5 text-md-right">
+                            <a
+                                href="contact.html"
+                                class="btn btn-primary btn-white"
+                            >
+                                Узнать больше
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="site-footer" style="background: #f5f5f5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h2 class="footer-heading mb-4">О нас</h2>
+                            <p>
+                                AutoCarePro — это образовательный ресурс,
+                                посвящённый практическим советам по уходу за
+                                автомобилем. Здесь вы найдёте информацию об
+                                организации пространства в гараже, эффективных
+                                методах очистки и мелком ремонте, которые
+                                помогут поддерживать ваш автомобиль в идеальном
+                                состоянии.
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2 class="footer-heading mb-4">Быстрые ссылки</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about.html">О нас</a></li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Правила использования</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Политика конфиденциальности</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="cookie-policy.html"
+                                        >Политика cookie</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2 class="footer-heading mb-4">Контакты</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"
+                                        >ул. Проселочная 2 "А, Петропавловск
+                                        150000</a
+                                    >
+                                </li>
+                                <li><a href="#">+77019205527</a></li>
+                                <li><a href="#">auto_care_pro@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Политика cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie-файлы для улучшения качества
+                    работы. Cookies — это небольшие текстовые файлы, которые
+                    сохраняются на вашем устройстве и помогают обеспечивать
+                    функциональность сайта, а также собирают анонимную
+                    статистику использования. Продолжая использовать наш сайт,
+                    вы соглашаетесь с использованием cookie в соответствии с
+                    нашей
+                    <a href="cookie-policy.html">политикой cookie</a>.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script src="js/aos.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
